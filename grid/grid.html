@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>THE GRID BOX</title>
+        <style>
+            .container{
+                width: 70%;
+                margin-left: auto;
+                margin-right: auto;
+                background-color: grey;
+                padding: 1em;
+                display:grid;
+                grid-template-columns: repeat(3,1fr);
+                grid-template-rows: repeat(3,1fr);
+                grid-gap: 10px;
+            }
+            .b1{
+                background-color: aqua;
+                grid-column: 1/2;
+                grid-row: 1/2;
+                padding: 1em;
+            }
+            .b2{
+                background-color: aquamarine;
+                grid-column: 2/4;
+                grid-row: 1/2;
+                 padding: 1em;
+            }
+            .b3{
+                background-color: azure;
+                padding: 1em;
+                grid-column: 1/2;
+                grid-row: 2/4;
+            }
+            .b4{
+                grid-column: 2/3;
+                grid-row: 2/3;
+                background-color: lightpink;
+                padding:1em;
+            }
+            .b5{
+                grid-column: 3/4;
+                grid-row: 2/3;
+                background-color: blanchedalmond;
+                padding:1em;
+            }
+            .b6{
+                grid-column: 2/4;
+                grid-row: 3/4;
+                background-color: greenyellow;
+                
+            }
+            </style>
+
+
+
+        
+    </head>
+    <body>
+        <div class="container">
+            
+            <div  class="b1">
+               Badminton is a racquet sport played using racquets to hit a shuttlecock across a net. Although it 
+              may be played with larger teams, the most common forms of the game are "singles" (with one player per side)
+              and "doubles" (with two players per side).
+            </div>
+            
+        
+            <div class="b2">
+              Badminton is often played as a casual outdoor activity in a yard or on a beach; formal games 
+              are played on a rectangular indoor court. Points are scored by striking the shuttlecock with the
+               racquet and landing it within the opposing side's half of the court.
+            </div>
+            
+               
+                <div class="b3">
+                    Points are scored by striking the shuttlecock with the
+               racquet and landing it within the opposing side's half of the court.</div>
+
+               <div class ="b4">
+                 Badminton is a racquet sport played using racquets to hit a shuttlecock across a net
+               </div>
+
+               <div class="b5">
+                Badminton is often played as a casual outdoor activity in a yard or on a beach; formal games 
+                are played on a rectangular indoor court.
+               </div>
+               <div class="b6">
+                Badminton is often played as a casual outdoor activity in a yard or on a beach; formal games 
+                are played on a rectangular indoor court.
+               </div>
+            
+        </div>
+
+        
+      
+
+    </body>
+</html>
