@@ -1,0 +1,291 @@
+<html>
+    <head>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <style>
+            @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap");
+            html{
+                scroll-behavior: smooth;
+            }
+            body{
+                margin: 0;
+                font-family:'Raleway', sans-serif;
+            }
+            .logo{
+                width: 7%;
+                height: 5%;
+                padding: 20px;
+            }
+            header{
+                margin-top: 10px;
+                margin-left: 50px;
+
+                
+            }
+            header,ul{
+                
+                display: flex;}
+            ul{
+                margin-left: 20%;
+            }
+            ul>li{
+                
+                list-style: none;
+                padding: 20px;
+            }
+            li a{
+                text-decoration: none;
+                font-size: medium;
+                color: #000;
+                font-weight: 400;
+            }
+            .active:hover{
+                text-decoration: underline;
+                text-underline-offset: 5px;
+                text-decoration-thickness: 2px;
+                text-decoration-color: #8071D0;
+            }
+            .ybutton{
+                margin-left: 400px;
+                margin-top: 20px;
+                width: 140px;
+                height: 45px;
+                border-radius: 20px;
+                background-color: #FFD8DB;
+                color:#A389CC;
+                border: 0;
+                font-weight: bold;
+            }
+            .ybutton:hover{
+                box-shadow: 2px 8px 20px #747272;
+                transition: 0.4s;
+                cursor: pointer;
+            }
+            .newbutton{
+                margin-left:150px;
+                margin-top: 20px;
+                width: 140px;
+                height: 50px;
+                border-radius: 20px;
+                background-color: #5243C0;
+                color:#ffff;
+                border: 0;
+                font-weight: bold;
+
+            }
+            .newbutton:hover{
+                box-shadow: 2px 8px 20px #747272;
+                transition: 0.4s;
+                cursor: pointer;
+            }
+            .heading{
+                margin-top: 0%;
+                margin-left: 20%;
+                font-family: 'Roboto', sans-serif;
+                font-size:100;
+                font-weight: 700;
+            }
+            span{
+               font-family:Arial, Helvetica, sans-serif;
+                color: #8071D0;
+                
+            }
+            .section1{
+                width: 50%;
+            }
+            .main{
+
+                display: flex;
+                z-index: -1;
+            }
+           .con{
+            margin-left: 150px;
+            margin-top: -80;
+            color:rgb(44, 42, 42);
+           }
+           .landing{
+            width: 450px;
+            height: 450px;
+           }
+           
+           .arrow{
+            
+            padding: 20px;
+            width: 50px;
+            height: 50px;
+
+           }
+           
+           .childs{
+            display: flex;
+            width: 400px;
+            height: 60px;
+            background-color: rgb(195, 201, 201);
+            margin-top: 10px;
+            margin-left: 150px;
+            border-radius: 15px;
+            padding-left: 10px;
+            padding-top: 10px;
+            padding-bottom: 5px;
+           }
+           .imgs{
+            padding: auto;
+            width: 40px;
+            border-radius: 50;
+            height: 40px;
+           }
+
+           .container {
+            width: 400px;
+            margin: 5px;
+            margin-left: 150px;
+            padding: 10px;
+            background-color: #f1f1f1;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-radius: 20px;
+          }
+          .container:hover{
+            background-color: #ffffff;
+            box-shadow: 2px 8px 20px #aaa;
+                transition: 0.4s;
+                cursor: pointer;
+          }
+          
+        
+          .logos {
+            margin-left: 20px;
+            max-width: 50px;
+            height: auto;
+          }
+        
+          .text {
+            margin-left: 10px;
+            margin-right: 10px;
+            flex-grow: 1;
+          }
+          .date{
+            color: #ccc;
+            margin-left: 20px;
+            margin-right: 20px;
+          }
+          .bar1{
+            width: 20px;
+            height: 10px;
+            background-color: #FED7DA;
+            margin-left: 20px;
+            margin-right: 20px;
+            border-radius: 30px;
+          }
+          .bar2{
+            width: 20px;
+            height: 10px;
+            background-color: #FD6534;
+            margin-left: 20px;
+            margin-right: 20px;
+            border-radius: 30px;
+          }
+          .bar3{
+            width: 20px;
+            height: 10px;
+            background-color: #9ED095;
+            margin-left: 20px;
+            margin-right: 20px;
+            border-radius: 30px;
+          }
+          .bar4{
+            width: 20px;
+            height: 10px;
+            background-color: #FFE4A0;
+            margin-left: 20px;
+            margin-right: 20px;
+            border-radius: 30px;
+          }
+          
+        </style>
+    </head>
+    <body>
+        <header>
+            <img src="./stunning-logo.png" class="logo" alt="Logo">
+            <ul>
+                <li>
+                    <a class="active" href="#">Home</a>
+                </li>
+                <li class="active"><a  href="#">About</a></li>
+                <li><a class="active" href="#">Blog</a></li>
+                <li><a class="active" href="#">Jobs</a></li>
+            </ul>
+
+            <button class="ybutton">Your Account</button>
+        </header>
+        <div class="main">
+            <div class="section1">
+                <p class="heading">Stunning <br>Workplace<span>.</span></p>
+                <p class="con"> With Stunning, remote teams can organize projects,<br>Manage shifting priorities, and get work done.</p>
+                <div style="display: flex;"><button class="newbutton">New Account</button>
+                    <img class="arrow" src="./arrow-up.png" alt="">
+                    <img class="arrow" src="./arrow-down.png" alt="">
+                </div>
+                
+                <div>
+                    <div class="container">
+                        <img class="logos" src="./tick-gray.png" alt="Left Logo">
+                        <div class="text">
+                          <p>Dmm design</p>
+                        </div>
+                        <img class="logos" src="./user-pink.png" alt="Right Logo">
+                        <div><p class="date">20 Dec</p></div>
+                        <div class="bar1"></div>  
+                    </div>
+                      
+                </div>
+                <div>
+                    <div class="container">
+                        <img class="logos" src="./tick-blue.png" alt="Left Logo">
+                        <div class="text">
+                          <p>Blurr animation</p>
+                        </div>
+                        <img class="logos" src="./user-orange.png" alt="Right Logo">
+                        <div><p class="date">20 Dec</p></div>
+                        <div class="bar2"></div>  
+                    </div>
+                      
+                </div>
+                <div>
+                    <div class="container">
+                        <img class="logos" src="./tick-gray.png" alt="Left Logo">
+                        <div class="text">
+                          <p>Illustration</p>
+                        </div>
+                        <img class="logos" src="./user-blue.png" alt="Right Logo">
+                        <div><p class="date">20 Dec</p></div>
+                        <div class="bar3"></div>  
+                    </div>
+                      
+                </div>
+                <div>
+                    <div class="container">
+                        <img class="logos" src="./tick-gray.png" alt="Left Logo">
+                        <div class="text">
+                          <p>Refunds</p>
+                        </div>
+                        <img class="logos" src="./user-red.png" alt="Right Logo">
+                        <div><p class="date">20 Dec</p></div>
+                        <div class="bar4"></div>  
+                    </div>
+                      
+                </div>
+                
+
+            </div>
+            <img class="landing" src="./landing-section-image.png" alt="">
+
+            <div>
+
+            </div>
+        </div>
+    </body>
+</html>
